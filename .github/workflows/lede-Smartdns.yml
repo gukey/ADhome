@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: OpenWrt-adguardhome-Smartdns
+name: Ruanluyou-Smartdns-Passwall
 
 on:
   release:
@@ -124,5 +124,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: OpenWrt_lede
+        name: Ruanluyou_Smartdns_Passwall
         path: ${{ env.FIRMWARE }}
