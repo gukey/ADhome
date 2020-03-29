@@ -119,5 +119,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: New_d1_Openwrt
+        name: New_d1_`date +%Y-%m-%d-%H:%M:%S`
         path: ${{ env.FIRMWARE }}
