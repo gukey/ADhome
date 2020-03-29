@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: New_d1-adguardhome-Smartdns
+name: Newifi_d1
 
 on:
   release:
@@ -119,5 +119,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: New_d1_`date +%Y-%m-%d-%H:%M:%S`
+        name: Newifi_d1
         path: ${{ env.FIRMWARE }}
