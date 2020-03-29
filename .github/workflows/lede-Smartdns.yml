@@ -124,5 +124,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: lede_Smartdns_`date +%Y-%m-%d-%H:%M:%S`
+        name: lede-_smartdns
         path: ${{ env.FIRMWARE }}
