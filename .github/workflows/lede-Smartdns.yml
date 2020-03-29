@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: lede-_`date +%Y-%m-%d-%H:%M:%S`
+name: lede-_smartdns
 
 on:
   release:
