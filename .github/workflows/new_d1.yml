@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Newifi_d1
+name: Lean-newifi_d1
 
 on:
   release:
@@ -22,8 +22,8 @@ on:
     types: [started]
 
 env:
-  REPO_URL: https://github.com/Lienol/openwrt
-  REPO_BRANCH: dev-lean-lede
+  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_BRANCH: master
   CONFIG_FILE: new_d1
   DIY_SH: new_d1_diy.sh
   FREE_UP_DISK: false
