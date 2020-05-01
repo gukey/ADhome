@@ -10,6 +10,7 @@ sed -i 's/192.168.1.1/192.168.1.3/g' package/base-files/files/bin/config_generat
 sed -i 's/bootstrap/argon/g' feeds/luci/collections/luci/Makefile
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/gukey/smartdns.git package/openwrt-smartdns
+git clone https://github.com/gukey/helloworld.git package/hellwd
 #git clone https://github.com/gukey/passwall.git package/gukey
 #git clone https://github.com/gukey/ssr.git package/SSR
 #git clone https://github.com/vernesong/OpenClash.git package/OpenClash
