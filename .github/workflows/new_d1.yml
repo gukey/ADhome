@@ -16,8 +16,8 @@ on:
       - master
     paths:
       - '.config'
-  schedule:
-    - cron: 00 01 * * *
+#  schedule:
+#    - cron: 00 01 * * *
   watch:
     types: [started]
 
